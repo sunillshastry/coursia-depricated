@@ -75,6 +75,10 @@ public class Person {
         return this.age;
     }
 
+    /**
+     * Sets the name of the Person object to a new value
+     * @param name The new name of the Person
+     */
     public void setName(String name) {
         this.name = name;
     }
