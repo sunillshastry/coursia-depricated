@@ -47,6 +47,13 @@ public class Person {
         this.age = age;
     }
 
+    /**
+     * The main constructor for the Person class
+     * Sets the 'age' parameter as the value for age attribute
+     * Sets the 'name' parameter as the value for name attribute
+     * @param name The name of the Person
+     * @param age The age of the Person (must be 0 or higher)
+     */
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
