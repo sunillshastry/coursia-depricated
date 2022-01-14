@@ -28,4 +28,8 @@ public class Person {
     public String getName() {
         return this.name;
     }
+
+    public int getAge() {
+        return this.age;
+    }
 }
