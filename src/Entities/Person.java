@@ -76,7 +76,7 @@ public class Person {
     }
 
     /**
-     * Sets the name of the Person object to a new value
+     * Sets the name of the Person object to a new value, only if the String is not null or empty
      * @param name The new name of the Person
      */
     public void setName(String name) {
