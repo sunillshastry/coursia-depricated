@@ -14,4 +14,9 @@ public class Person {
         this.name = name;
         this.age = -1;
     }
+
+    public Person(int age) {
+        this.name = null;
+        this.age = age;
+    }
 }
