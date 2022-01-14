@@ -23,6 +23,13 @@ public class Person {
         this.age = -1;
     }
 
+    /**
+     * A name-primary constructor for the Person class.
+     * Sets the 'name' parameter as the value for the name attribute
+     * Sets the age to -1
+     *
+     * @param name The name of the Person
+     */
     public Person(String name) {
         this.name = name;
         this.age = -1;
