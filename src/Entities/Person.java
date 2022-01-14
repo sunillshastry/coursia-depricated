@@ -35,6 +35,13 @@ public class Person {
         this.age = -1;
     }
 
+    /**
+     * An age-primary constructor for the Person class
+     * Sets the 'age' parameter as the value for the age attribute
+     * Sets the name to null
+     *
+     * @param age The age of the Person (must be 0 or higher)
+     */
     public Person(int age) {
         this.name = null;
         this.age = age;
