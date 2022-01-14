@@ -4,12 +4,16 @@ package Entities;
  * A Java class that serves as a Model for a real Person object, includes details like name and age.
  */
 public class Person {
-    /** The name of the Person */
+    /**
+     * The name of the Person
+     */
     private String name;
 
-    /** The age of the Person */
+    /**
+     * The age of the Person
+     */
     private int age;
-
+    
     public Person() {
         this.name = null;
         this.age = -1;
