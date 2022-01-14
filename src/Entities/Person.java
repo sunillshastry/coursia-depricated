@@ -13,7 +13,11 @@ public class Person {
      * The age of the Person
      */
     private int age;
-    
+
+    /**
+     * The default constructor for the Person class that takes no arguments.
+     * Sets the attributes name and age to null and -1 respectively
+     */
     public Person() {
         this.name = null;
         this.age = -1;
