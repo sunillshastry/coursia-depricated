@@ -59,6 +59,10 @@ public class Person {
         this.age = age;
     }
 
+    /**
+     * Retrieves the name of the Person
+     * @return The Person's name, only if it is not a null value
+     */
     public String getName() {
         return this.name;
     }
