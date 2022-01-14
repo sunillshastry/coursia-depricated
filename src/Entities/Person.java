@@ -19,4 +19,9 @@ public class Person {
         this.name = null;
         this.age = age;
     }
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
