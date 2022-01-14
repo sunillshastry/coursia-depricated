@@ -51,8 +51,9 @@ public class Person {
      * The main constructor for the Person class
      * Sets the 'age' parameter as the value for age attribute
      * Sets the 'name' parameter as the value for name attribute
+     *
      * @param name The name of the Person
-     * @param age The age of the Person (must be 0 or higher)
+     * @param age  The age of the Person (must be 0 or higher)
      */
     public Person(String name, int age) {
         this.name = name;
@@ -61,6 +62,7 @@ public class Person {
 
     /**
      * Retrieves the name of the Person
+     *
      * @return The Person's name, only if it is not a null value
      */
     public String getName() {
@@ -69,6 +71,7 @@ public class Person {
 
     /**
      * Retrieves the age of the Person
+     *
      * @return The Person's age, only if it is greater than or equal to 0
      */
     public int getAge() {
@@ -77,6 +80,7 @@ public class Person {
 
     /**
      * Sets the name of the Person object to a new value, only if the String is not null or empty
+     *
      * @param name The new name of the Person
      */
     public void setName(String name) {
@@ -85,6 +89,7 @@ public class Person {
 
     /**
      * Sets the age of the Person object to a new value, only if greater than or equal to 0
+     *
      * @param age The age of the Person, must be greater than or equal to 0
      */
     public void setAge(int age) {
