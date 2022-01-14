@@ -67,6 +67,10 @@ public class Person {
         return this.name;
     }
 
+    /**
+     * Retrieves the age of the Person
+     * @return The Person's age, only if it is greater than or equal to 0
+     */
     public int getAge() {
         return this.age;
     }
