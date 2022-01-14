@@ -83,6 +83,10 @@ public class Person {
         this.name = name;
     }
 
+    /**
+     * Sets the age of the Person object to a new value, only if greater than or equal to 0
+     * @param age The age of the Person, must be greater than or equal to 0
+     */
     public void setAge(int age) {
         this.age = age;
     }
