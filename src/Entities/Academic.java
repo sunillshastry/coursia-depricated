@@ -94,6 +94,12 @@ public class Academic extends Person {
         this.identity = identity;
     }
 
+    /**
+     * Sets a new university name to an Academic.
+     * Only if the new value is not null.
+     *
+     * @param university The name of the university that will be set to an Academic
+     */
     public void setUniversity(String university) {
         this.university = university;
     }
