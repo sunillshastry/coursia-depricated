@@ -1,4 +1,5 @@
 package Entities;
 
-public class Academic {
+public class Academic extends Person {
+    private String identity;
 }
