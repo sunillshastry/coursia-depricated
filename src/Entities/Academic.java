@@ -38,6 +38,13 @@ public class Academic extends Person {
         this.university = null;
     }
 
+    /**
+     * The Academic-primary constructor for the Academic class.
+     * Initialises the 'name' and 'age' to null and -1 values respectively.
+     *
+     * @param identity   The unique identity value of the Academic
+     * @param university The university which the Academic is associated with
+     */
     public Academic(String identity, String university) {
         super();
         this.identity = identity;
