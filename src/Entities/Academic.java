@@ -66,6 +66,11 @@ public class Academic extends Person {
         this.university = university;
     }
 
+    /**
+     * Retrieves the unique identity value of an Academic
+     *
+     * @return The identity number
+     */
     public String getIdentity() {
         return this.identity;
     }
