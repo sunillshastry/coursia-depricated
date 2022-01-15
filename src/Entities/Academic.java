@@ -15,6 +15,10 @@ public class Academic extends Person {
      */
     private String university;
 
+    /**
+     * The default constructor for the Academic class.
+     * Initialises all values to -1 or null
+     */
     public Academic() {
         super();
         this.identity = null;
