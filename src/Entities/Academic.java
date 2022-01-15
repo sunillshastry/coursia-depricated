@@ -1,5 +1,9 @@
 package Entities;
 
+/**
+ * A Java class that serves as a model for an Academic (person associated with an institution)
+ * Extends the Person class to access the name and age attributes
+ */
 public class Academic extends Person {
     private String identity;
 
