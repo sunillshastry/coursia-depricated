@@ -5,8 +5,14 @@ package Entities;
  * Extends the Person class to access the name and age attributes
  */
 public class Academic extends Person {
+    /**
+     * The unique identity value of the Academic
+     */
     private String identity;
 
+    /**
+     * The university which the Academic is associated with
+     */
     private String university;
 
     public Academic() {
