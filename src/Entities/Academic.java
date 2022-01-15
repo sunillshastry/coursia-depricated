@@ -84,6 +84,12 @@ public class Academic extends Person {
         return this.university;
     }
 
+    /**
+     * Sets a new identity value to an Academic.
+     * Only if the new value is not null or already assigned to a different Academic.
+     *
+     * @param identity The new unique identity value for an Academic
+     */
     public void setIdentity(String identity) {
         this.identity = identity;
     }
