@@ -32,4 +32,11 @@ class PersonTest {
         person.setName("Holly Winks");
         assertEquals("Holly Winks", person.getName());
     }
+
+    @Test
+    void setAndGetAge() {
+        Person person = new Person();
+        person.setAge(69);
+        assertEquals(69, person.getAge());
+    }
 }
