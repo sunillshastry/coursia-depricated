@@ -10,4 +10,10 @@ public class Academic extends Person {
         this.identity = null;
         this.university = null;
     }
+
+    public Academic(String name, int age) {
+        super(name, age);
+        this.identity = null;
+        this.university = null;
+    }
 }
