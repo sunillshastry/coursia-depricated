@@ -22,4 +22,10 @@ public class Academic extends Person {
         this.identity = identity;
         this.university = university;
     }
+
+    public Academic(String name, int age, String identity, String university) {
+        super(name, age);
+        this.identity = identity;
+        this.university = university;
+    }
 }
