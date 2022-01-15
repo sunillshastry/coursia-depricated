@@ -75,6 +75,11 @@ public class Academic extends Person {
         return this.identity;
     }
 
+    /**
+     * Retrieves the name of the university which the Academic is associated to
+     *
+     * @return The Academic's university
+     */
     public String getUniversity() {
         return this.university;
     }
