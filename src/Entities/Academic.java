@@ -40,4 +40,8 @@ public class Academic extends Person {
     public void setIdentity(String identity) {
         this.identity = identity;
     }
+
+    public void setUniversity(String university) {
+        this.university = university;
+    }
 }
