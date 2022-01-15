@@ -28,8 +28,9 @@ public class Academic extends Person {
     /**
      * The Person-primary constructor for Academic class.
      * Initialises the 'identity' and 'university' to null values.
+     *
      * @param name The name of the Academic
-     * @param age The age of the Academic
+     * @param age  The age of the Academic
      */
     public Academic(String name, int age) {
         super(name, age);
