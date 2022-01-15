@@ -51,6 +51,15 @@ public class Academic extends Person {
         this.university = university;
     }
 
+    /**
+     * The main constructor for the Academic class.
+     * Initialises all attributes to their respective argument values.
+     *
+     * @param name       The name of the Academic
+     * @param age        The age of the Academic
+     * @param identity   The unique identity number of the Academic
+     * @param university The university which the Academic is associated with
+     */
     public Academic(String name, int age, String identity, String university) {
         super(name, age);
         this.identity = identity;
