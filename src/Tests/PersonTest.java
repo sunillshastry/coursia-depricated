@@ -1,4 +1,5 @@
 package Tests;
+
 import Entities.Person;
 import org.junit.jupiter.api.Test;
 
@@ -23,5 +24,12 @@ class PersonTest {
         Person person = new Person("Mark Snow", 55);
         assertEquals("Mark Snow", person.getName());
         assertEquals(55, person.getAge());
+    }
+
+    @Test
+    void setAndGetName() {
+        Person person = new Person();
+        person.setName("Holly Winks");
+        assertEquals("Holly Winks", person.getName());
     }
 }
