@@ -16,4 +16,10 @@ public class Academic extends Person {
         this.identity = null;
         this.university = null;
     }
+
+    public Academic(String identity, String university) {
+        super();
+        this.identity = identity;
+        this.university = university;
+    }
 }
