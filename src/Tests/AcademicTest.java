@@ -33,6 +33,6 @@ class AcademicTest {
     @Test
     void PersonArgsIdentity() {
         Academic academic = new Academic("Matthew Rayan", 45);
-        assertEquals("Matthew Rayan", academic.getName());
+        assertNull(academic.getIdentity());
     }
 }
