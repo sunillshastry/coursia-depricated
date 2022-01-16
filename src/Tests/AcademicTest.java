@@ -60,5 +60,8 @@ class AcademicTest {
 
         // Name test for academic
         assertEquals("Richard Thompson", academic.getName());
+
+        // Age test for academic
+        assertEquals(24, academic.getAge());
     }
 }
