@@ -11,4 +11,10 @@ class AcademicTest {
         Academic academic = new Academic();
         assertNull(academic.getName());
     }
+
+    @Test
+    void NoArgsAcademicAge() {
+        Academic academic = new Academic();
+        assertEquals(-1, academic.getAge());
+    }
 }
