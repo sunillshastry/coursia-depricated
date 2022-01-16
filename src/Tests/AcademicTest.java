@@ -63,5 +63,8 @@ class AcademicTest {
 
         // Age test for academic
         assertEquals(24, academic.getAge());
+
+        // Identity test for academic
+        assertEquals("etu414", academic.getIdentity());
     }
 }
