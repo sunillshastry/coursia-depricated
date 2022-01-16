@@ -35,4 +35,10 @@ class AcademicTest {
         Academic academic = new Academic("Matthew Rayan", 45);
         assertNull(academic.getIdentity());
     }
+
+    @Test
+    void PersonArgsUniversity() {
+        Academic academic = new Academic("Steven Howard", 23);
+        assertNull(academic.getUniversity());
+    }
 }
