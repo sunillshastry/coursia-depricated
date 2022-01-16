@@ -7,55 +7,55 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AcademicTest {
     @Test
-    void NoArgsAcademicName() {
+    public void NoArgsAcademicName() {
         Academic academic = new Academic();
         assertNull(academic.getName());
     }
 
     @Test
-    void NoArgsAcademicAge() {
+    public void NoArgsAcademicAge() {
         Academic academic = new Academic();
         assertEquals(-1, academic.getAge());
     }
 
     @Test
-    void NoArgsAcademicIdentity() {
+    public void NoArgsAcademicIdentity() {
         Academic academic = new Academic();
         assertNull(academic.getIdentity());
     }
 
     @Test
-    void NoArgsAcademicUniversity() {
+    public void NoArgsAcademicUniversity() {
         Academic academic = new Academic();
         assertNull(academic.getUniversity());
     }
 
     @Test
-    void PersonArgsIdentity() {
+    public void PersonArgsIdentity() {
         Academic academic = new Academic("Matthew Rayan", 45);
         assertNull(academic.getIdentity());
     }
 
     @Test
-    void PersonArgsUniversity() {
+    public void PersonArgsUniversity() {
         Academic academic = new Academic("Steven Howard", 23);
         assertNull(academic.getUniversity());
     }
 
     @Test
-    void AcademicArgsIdentity() {
+    public void AcademicArgsIdentity() {
         Academic academic = new Academic("abc123", "Stanford University");
         assertEquals("abc123", academic.getIdentity());
     }
 
     @Test
-    void AcademicArgsUniversity() {
+    public void AcademicArgsUniversity() {
         Academic academic = new Academic("mnc548", "Harvard University");
         assertEquals("Harvard University", academic.getUniversity());
     }
 
     @Test
-    void MainAcademicConstructor() {
+    public void MainAcademicConstructor() {
         Academic academic = new Academic("Richard Thompson", 24, "etu414", "University of Toronto");
 
         // Name test for academic
@@ -72,7 +72,7 @@ class AcademicTest {
     }
 
     @Test
-    void AcademicSetIdentity() {
+    public void AcademicSetIdentity() {
         Academic academic = new Academic("kbe725", "University of Saskatchewan");
         assertEquals("kbe725", academic.getIdentity());
 
@@ -84,7 +84,7 @@ class AcademicTest {
     }
 
     @Test
-    void AcademicSetUniversity() {
+    public void AcademicSetUniversity() {
         Academic academic = new Academic("pov121", "Trinity College");
         assertEquals("Trinity College", academic.getUniversity());
 
