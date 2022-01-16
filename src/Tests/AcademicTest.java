@@ -53,4 +53,12 @@ class AcademicTest {
         Academic academic = new Academic("mnc548", "Harvard University");
         assertEquals("Harvard University", academic.getUniversity());
     }
+
+    @Test
+    void MainAcademicConstructor() {
+        Academic academic = new Academic("Richard Thompson", 24, "etu414", "University of Toronto");
+
+        // Name test for academic
+        assertEquals("Richard Thompson", academic.getName());
+    }
 }
