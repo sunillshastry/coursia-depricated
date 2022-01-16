@@ -82,4 +82,16 @@ class AcademicTest {
         // Testing the newly set identity
         assertEquals("mex351", academic.getIdentity());
     }
+
+    @Test
+    void AcademicSetUniversity() {
+        Academic academic = new Academic("pov121", "Trinity College");
+        assertEquals("Trinity College", academic.getUniversity());
+
+        // Set a new university value for the academic
+        academic.setUniversity("University of Manchester");
+
+        // Testing the newly set university value
+        assertEquals("University of Manchester", academic.getUniversity());
+    }
 }
