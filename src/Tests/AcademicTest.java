@@ -70,4 +70,16 @@ class AcademicTest {
         // University test for academic
         assertEquals("University of Toronto", academic.getUniversity());
     }
+
+    @Test
+    void AcademicSetIdentity() {
+        Academic academic = new Academic("kbe725", "University of Saskatchewan");
+        assertEquals("kbe725", academic.getIdentity());
+
+        // Set a new identity number for the academic.
+        academic.setIdentity("mex351");
+
+        // Testing the newly set identity
+        assertEquals("mex351", academic.getIdentity());
+    }
 }
