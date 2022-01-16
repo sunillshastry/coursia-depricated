@@ -66,5 +66,8 @@ class AcademicTest {
 
         // Identity test for academic
         assertEquals("etu414", academic.getIdentity());
+
+        // University test for academic
+        assertEquals("University of Toronto", academic.getUniversity());
     }
 }
