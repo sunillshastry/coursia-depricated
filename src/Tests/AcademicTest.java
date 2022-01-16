@@ -23,4 +23,10 @@ class AcademicTest {
         Academic academic = new Academic();
         assertNull(academic.getIdentity());
     }
+
+    @Test
+    void NoArgsAcademicUniversity() {
+        Academic academic = new Academic();
+        assertNull(academic.getUniversity());
+    }
 }
