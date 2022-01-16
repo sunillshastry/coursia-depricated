@@ -29,4 +29,10 @@ class AcademicTest {
         Academic academic = new Academic();
         assertNull(academic.getUniversity());
     }
+
+    @Test
+    void PersonArgsIdentity() {
+        Academic academic = new Academic("Matthew Rayan", 45);
+        assertEquals("Matthew Rayan", academic.getName());
+    }
 }
